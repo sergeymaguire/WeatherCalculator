@@ -42,13 +42,13 @@ namespace WeatherCalculator
                 _skyCondition = value.ToLower();
                 if (_skyCondition == "sunny")
                 {
-                    skyUrl = "https://requestreduce.org/images/large-clipart-sun-8.png";
+                    skyUrl = "http://worldartsme.com/images/small-sun-clipart-1.jpg";
                 }
                 else if (_skyCondition == "rainy")
                 {
                     skyUrl = "https://cdn0.wideopencountry.com/wp-content/uploads/2018/07/country-songs-about-rain-793x526.jpg";
                 }
-                else
+                else if (_skyCondition == "cloudy")
                 {
                     skyUrl = "https://asmallorange.com/assets/img/services/cloud.png";
                 }
