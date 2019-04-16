@@ -189,17 +189,6 @@
             this.cboLowTemp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLowTemp.FormattingEnabled = true;
             this.cboLowTemp.Items.AddRange(new object[] {
-            "-10",
-            "-9",
-            "-8",
-            "-7",
-            "-6",
-            "-5",
-            "-4",
-            "-3",
-            "-2",
-            "-1",
-            "0",
             "1",
             "2",
             "3",
